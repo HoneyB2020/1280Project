@@ -13,7 +13,7 @@
     grid-area: Header;
     display: flex;
     justify-content: start;
-    background-color: brown;
+    background-color: #e4e4df;
 
 
 }
@@ -21,14 +21,16 @@
 
 .Body {
     grid-area: Body;
-    background-color: black;
+    background-color: #a49484;
     color: aliceblue;
-
+    background-image: url(images/Lotsofbagel.jpg);
+    background-size: cover;
 
 }
 
 .Footer {
     grid-area: Footer;
+    background-color: #5c442d;
 }
 
 nav {
