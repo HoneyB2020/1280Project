@@ -6,7 +6,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20vh auto 20vh;
+    grid-template-rows: 20vh 70vh 10vh;
     grid-auto-flow: row;
     grid-template-areas:
         "Header Header Header Header"
@@ -19,13 +19,9 @@
     display: flex;
     justify-content: start;
     background-color: #e4e4df;
-    background-image: url("images/Lotsofbagel.jpg");
-    background-size: cover;
-    background-position: center;
+    
 
 }
-
-
 
 
 .Body {
@@ -33,6 +29,9 @@
     background-color: #a49484;
     color: aliceblue;
     text-align: left;
+    background-image: url("images/Lotsofbagel.jpg");
+    background-size: cover;
+    background-position: center;
 
 }
 .recipe{

@@ -27,31 +27,27 @@
                 </ul>
             </nav>
 
+
+
         </div>
         <div class="Body">
-            <label for="RangeInput">Choose Serving Size</label>
-            <br>
-            <input type="range" id="RangeInput" min="9" max="36" value="18" onchange="ConvertRecipe()">
-            <p id="RangeValue">18 Servings</p>
-
-            <br>
-            <div class="recipe">
-                <h1>Montreal Style Bagel Recipe</h1>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name">
                 <br>
-               
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="something@something.com">
+                <br>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone">
+                <br>
+                <label for="message">Type in your message</label>
+                <input type="text" id="message">
+            </form>
 
-                <span id="flour">1000</span> <span>grams</span> Flour <br>
-                <span id="water">465</span> <span>grams</span>Water <br>
-                <span id="yeast">2</span> <span>grams</span> Instant yeast <br>
-                <span id="sugar">40</span> <span>grams</span> Sugar <br>
-                <span id="malt">9</span> <span>grams</span> Dry Malt extract <br>
-                <span id="egg">2</span> Egg <br>
-                <span id="oil">12</span> <span>Milliliters</span> Vegetable Oil <br>
-            </div>
+
         </div>
-        <div class="Footer">
-            &copy; The Bagel Shop
-        </div>
+        <div class="Footer"></div>
     </div>
 
 </body>
