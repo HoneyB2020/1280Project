@@ -305,5 +305,11 @@ footer {
     .container {
         flex-direction: column;
     }
+    .about-img {
+        display: none;
+    }
+    .line {
+        display: none;
+    }
 }
 
