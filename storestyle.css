@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+    
+    margin: 0;
+    padding: 0;
+}
+
 .btn {
     text-align: center;
     vertical-align: middle;
@@ -35,7 +43,7 @@
 
 .btn-primary {
     color: white;
-    background-color: #56CCF2;
+    background-color: #9d9f9f;
     border: none;
     border-radius: .3em;
     font-weight: bold;
@@ -57,4 +65,20 @@
 .shop-items{
     display: flex;
     justify-content: flex-start;
+}
+.btn.btn-primary.btn-purchase {
+    height: 50px;
+}
+.cart-items {
+    display: flex;
+    justify-content: flex-start;
+
+}
+body {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+   
+    font-family: "lato", sans-serif;
+    background: #B6ACA0;
 }
