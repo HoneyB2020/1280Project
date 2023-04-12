@@ -1,4 +1,7 @@
-// //make sure page is loaded before JS runs, otherwise it will calculate nothing
+///Used Javascript Tutorial from https://www.youtube.com/watch?v=YeFzkC2awTM&t=2s
+
+
+// //make sure page is loaded before JS runs, otherwise it will calculate nothing. If loaded, ready() runs
 
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
@@ -82,7 +85,7 @@ function addItemToCart(title, price, imageSrc) {
     //create a new div/row for cart
     var cartRowContents = `
         <div class="cart-item cart-column">
-            <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
+            <img class="cart-item-image" src="${imageSrc}" width="100" height="100"> <br>
             <span class="cart-item-title">${title}</span>
         </div>
         <span class="cart-price cart-column">${price}</span>
@@ -115,17 +118,5 @@ function updateCartTotal() {
     }
     total = Math.round(total * 100) / 100
     //update price total after loop
-    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total.toFixed(2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
