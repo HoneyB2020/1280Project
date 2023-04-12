@@ -224,6 +224,9 @@ footer {
 .img-link:hover {
     background: none;
 }
+.bagel-checkout{
+    /* display: none; */
+}
 
 @media screen and (max-width: 768px) {
     header, .foot-container{

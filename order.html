@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="storestyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
@@ -28,51 +29,62 @@
     </header>
 
     <div class="main">    
-        <div class="container">
-            <form class="bagel-order">
-                <div class="bagel-listing">
-                    <img class="bagel" src="images/plain.jfif" alt="">
-                    <label for="plain-bagel">Plain</label>
-                    <input type="number" class="plain-amount" min="0" max="10" step="1" value="0">
+        <section class="container content-section">
+            <h2 class="section-header">Bagel</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Plain Bagel</span>
+                    <img class="shop-item-image" src="images/plain.jpg">
+                    <div class="shop-item-details">
+                        <span class="bagel-item-price">$1.25</span>
+                        <button class="btn btn-primary bagel-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-
-                <div class="bagel-listing">
-                    <img class="bagel" src="images/cheese.png" alt="">
-                    <label for="cheese-bagel">Cheese</label>
-                    <input type="number" class="cheese-amount" min="0" max="10" step="1" value="0">
+                <div class="shop-item">
+                    <span class="shop-item-title">Cheese Bagel</span>
+                    <img class="shop-item-image" src="images/cheese.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1.50</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-
-                <div class="bagel-listing">
-                    <img class="bagel" src="images/everything.jpg" alt="">
-                    <label for="everything-bagel">Everything</label>
-                    <input type="number" class="everything-amount" min="0" max="10" step="1" value="0">
+                <div class="shop-item">
+                    <span class="shop-item-title">Everything</span>
+                    <img class="shop-item-image" src="images/everything.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1.50</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-
-                <div class="bagel-listing">
-                    <img class="bagel" src="images/poppy.jpg" alt="">
-                    <label for="poppy-bagel">Poppy</label>
-                    <input type="number" class="poppy-amount" min="0" max="10" step="1" value="0">
+                <div class="shop-item">
+                    <span class="shop-item-title">Poppy</span>
+                    <img class="shop-item-image" src="images/poppy.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1.25</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-
-                <div class="bagel-listing">
-                    <img class="bagel" src="images/blueberry.jpg" alt="">
-                    <label for="blueberry-bagel">Blueberry</label>
-                    <input type="number" class="blueberry-amount" min="0" max="10" step="1" value="0">
-                </div>
-
-                <div class="bagel-buttons">
-                    <input type="submit" id="submit-order">
-                    <input type="reset" id="clear-order">
-                </div>
-            </form>
-
-            <div class="v1"></div>
-
-            <div class="bagel-checkout">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique veniam perspiciatis iusto accusantium tempora. Consectetur molestias in at ipsam, unde numquam, nihil dolore delectus tempore eaque excepturi repudiandae quas.</p>
-                <button class="order-now">Order Now</button>
             </div>
-        </div>
+        </section>
+        
+    
+    
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+        
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
     </div>
 
     <footer>
@@ -112,6 +124,6 @@
         </div>
         <p class="copyright">Copyright &copy; Buhh 2023</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="store.js"></script>
 </body>
 </html>

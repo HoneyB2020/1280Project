@@ -26,6 +26,8 @@ function ConvertRecipe() {
     let Water = 465*Servings/18;
     document.getElementById("water").innerText = "Water " +Water.toFixed(0)+ " grams";
     document.getElementById("water").textContent = "Water " +Water.toFixed(0)+ " grams";
-
+    let Seeds = 100*Servings/18;
+    document.getElementById("seeds").innerText = Seeds.toFixed(0)+ " grams sesame or poppy seeds";
+    document.getElementById("seeds").textContent = Seeds.toFixed(0)+ " grams sesame or poppy seeds";
     
 }
