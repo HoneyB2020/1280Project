@@ -73,6 +73,24 @@ header {
     padding: 20px;
     width: 70%;
 }
+.about-img
+{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+.about {
+    display: flex;
+    
+
+}
+.about-text{
+    padding: 20px;
+    font-size: 18px;
+}
+.line {
+    border-left: #5C462B solid 2px;
+}
 
 .container {
     display: flex;
@@ -288,3 +306,4 @@ footer {
         flex-direction: column;
     }
 }
+
