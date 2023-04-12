@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/recipe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <title>Bagel Company | Recipe Calculator</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="images/logo.png" class="logo-head" alt="">
+        </div>
+        <div class="links">
+            <a class="head-links" href="index.html">Home</a>
+            <a class="head-links" href="order.html">Order Now</a>
+            <a class="head-links" href="about.html">About Us</a>
+            <a class="head-links" href="recipe.html">Recipe Help</a>
+            <a class="head-links" href="contact.html">Contact Us</a>
+        </div>
+    </header>
+
+
+    <div class="main">
+        <div class="container">
+
+            <div class="recipe">
+                <h2>Open Sourced Montreal Style Bagel</h2> <br>
+                <label for="RangeInput">Select Bagel Count</label>
+                <br>
+                <input type="range" name="RangeInput" id="RangeInput" min="9" max="36" onchange="ConvertRecipe()">
+                <p id="RangeValue">8 Servings</p>
+                <br> <br>
+                <h3>Ingredients</h3>
+                <p id="flour">Flour 1000 grams</p>
+                <p id="water">Water 465 grams</p>
+                <p id="yeast">Yeast 2 grams</p>
+                <p id="sugar">Sugar 40 grams</p>
+                <p id="malt">Malt Powder 9 grams</p>
+                <p id="oil">Vegetable Oil 12 grams</p>
+                <p id="egg">2 Eggs</p>
+                <br>
+                <h3>Build</h3>
+                <p>4 Liters water</p>
+                <p>60 mL honey (or malt syrup, or brown sugar, or molasses, etc)</p>
+                <p id="seeds">100g sesame or poppy seeds</p>
+
+                <br>
+                <h3>Method</h3>
+                <ul>
+                    <li>Mix together dry ingredients and wet ingredients separately.</li>
+                    <li>Mix wet ingredients into dry, and combine into a ragged dough.</li>
+                    <li>You can use a stand mixer for this, but it will put a strain on all but the strongest of home
+                        units.</li>
+                    <li>Knead the dough on an unfloured surface for 12-15 minutes until smooth and elastic.</li>
+                    <li>This will be a fairly dry dough.</li>
+                    <li>Cover dough and lest rest on the bench for 45 - 60 minutes.</li>
+                    <li>Pre heat oven to 235ºC (450ºF).</li>
+                    <li>Just before shaping the dough place a large pot of water on to just below a boil; dissolve in
+                        honey.</li>
+                    <li>Divide dough into approx 100g pieces and shape like in the video on an unfloured surface.</li>
+                    <li>Drop the shaped bagels onto a floured surface and cover as you shape more.</li>
+                    <li>Gently 'boil' the bagels in the honey water for 3-5 minutes - don't overcrowd the pot.</li>
+                    <li>After boiling, transfer to a sheet tray, and then dip in sesames seeds to coat both sides.</li>
+                    <li>After coating in sesame seeds transfer to your parchment covered baking tray.</li>
+                    <li>Bake for 15 minutes or until done, flipping 2-3 times during the process.</li>
+                    <li>These can be baked on a sheet tray or directly on a pizza stone.</li>
+                    <li>Baked in a wood oven is the best, though.</li>
+
+                </ul>
+                <br>
+                <p>Recipe courtesy of <a
+                        href="http://https://www.youtube.com/@GlenAndFriendsCooking">GlenAndFriendsCooking</a></p>
+
+
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="footer-logo">
+                <img src="images/logo.png" class="logo-foot" alt="">
+            </div>
+
+            <div class="foot-container">
+                <div class="links-footer">
+                    <a class="foot-links" href="index.html">Home</a>
+                    <a class="foot-links" href="order.html">Order Now</a>
+                    <a class="foot-links" href="about.html">About Us</a>
+                    <a class="foot-links" href="recipe.html">Recipe Help</a>
+                    <a class="foot-links" href="contact.html">Contact Us</a>
+                </div>
+
+                <div class="store-info">
+                    <span>Store Information</span> <br>
+                    <p>Address: 2738 Somewhere Ave, Ovathere, AC</p> <br>
+                    <p>V43G67 Canadia</p> <br>
+                    <p>Phone: 493-9220-4940</p> <br>
+                    <p>Email: thisisanemail@email.com</p>
+                </div>
+
+                <div class="hours">
+                    <span>Open Hours</span> <br>
+                    <p>Monday-Friday: 10am - 7pm</p> <br>
+                    <p>Saturday: 11am - 8pm</p> <br>
+                    <p>Sunday: (Closed)</p> <br>
+                    <p>Holidays: (Times may vary)</p>
+                </div>
+            </div>
+
+            <div class="footer-media">
+                <a href="https://www.facebook.com/" class="img-link"><img src="images/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/" class="img-link"><img src="images/instagram.png" alt=""></a>
+            </div>
+            <p class="copyright">Copyright &copy; Buhh 2023</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
