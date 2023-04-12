@@ -1,0 +1,8 @@
+.main {
+    flex: 1;
+    padding: 20px;
+    background-image: url(images/pexels-cats-coming-10169963.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
